@@ -67,6 +67,7 @@ mkdir -p download_cache
 
 # Run the pop application with the specified parameters
 sudo ./pop --signup-by-referral-route f5475846a58338ff \
+./pop
   --ram 4 \              # RAM in GB
   --max-disk 150 \       # Max disk usage in GB  
   --cache-dir /data \    # Cache location
