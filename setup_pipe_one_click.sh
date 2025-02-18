@@ -72,3 +72,5 @@ sudo ./pop --signup-by-referral-route f5475846a58338ff \
   --cache-dir /data \    # Cache location
   --pubKey $address      # Public key input
 
+
+cat node_info.json
