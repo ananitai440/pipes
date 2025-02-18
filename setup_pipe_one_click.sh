@@ -36,10 +36,10 @@ sudo systemctl enable x11vnc.service
 sudo systemctl start x11vnc.service
 
 # Check the status of the service
-systemctl status x11vnc.service
+#systemctl status x11vnc.service
 
 # Install and configure OpenSSH server
-sudo systemctl status ssh
+#sudo systemctl status ssh
 sudo ufw allow ssh
 
 # Display IP address
